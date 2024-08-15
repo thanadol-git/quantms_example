@@ -27,7 +27,7 @@ For further information, please refer to the following links.
 
     If you see the message below, you have successfully installed Docker. 
     
-    ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/docker.png?raw=true)
+    ![alt text](images/docker.png)
 
 2. Nextflow: 
     ```
@@ -36,7 +36,7 @@ For further information, please refer to the following links.
 
     If you see the message below, you have successfully installed Docker. 
     
-    ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/nextflow.png?raw=true)
+    ![alt text](images/nextflow.png? )
 
 Hint: You may need `sudo` to run the command.
 
@@ -64,7 +64,7 @@ All of the file above should be in the same directory.
 4. The pipeline will run and generate the results in the `results` folder and the intermediate file in `work`. It will take a while to run around an hour. If it crashes, you can resume the pipeline by running the same command and add `-resume`.
 5. After the pipeline finishes, you can see some reports similar to the image below. The results are in the `results` folder. 
 
-    ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/done.png?raw=true)
+    ![alt text](/images/done.png )
 6. Now, you have done your first mass spectrometry data analysis. Yay! what we are doing here can shorted the steps in mass spectrometry data analysis from days or months to just an hour.
 
 # Further readings 
