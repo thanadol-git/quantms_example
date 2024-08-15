@@ -6,11 +6,9 @@ You only need to install two softwares to run the pipeline. Docker is used to ru
 There may be some issues with the installation of Docker and Nextflow. Of course, different operating systems may have different steps to install the softwares. Please refer to the official documentation for more information.
 
 1. [Docker](https://docs.docker.com/engine/install/)
-![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/docker.png?raw=true)
 
 
 2. [Nextflow](https://www.nextflow.io/docs/latest/install.html) 
-![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/nextflow.png?raw=true)
 
 # 2. Links 
 For further information, please refer to the following links. 
@@ -26,11 +24,23 @@ For further information, please refer to the following links.
     ```
     docker run hello-world
     ```
+
+    If you see the message below, you have successfully installed Docker. 
+    
+    ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/docker.png?raw=true)
+
 2. Nextflow: 
     ```
     nextflow run hello
     ``` 
-    Hint: You may need `sudo` to run the command.
+
+    If you see the message below, you have successfully installed Docker. 
+    
+    ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/nextflow.png?raw=true)
+
+Hint: You may need `sudo` to run the command.
+
+
 ## Prepare your files
 1. Download the proteome from [Uniprot](https://www.uniprot.org/). You need to download the fasta file of the proteome in a canonical version without the isoforms.
 2. Download the raw data from [PRIDE](https://www.ebi.ac.uk/pride/archive/). For example, `PXD020109`. 
