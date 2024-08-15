@@ -1,7 +1,7 @@
 ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/header.png?raw=true)
 # 1. Set up 
 
-You only need to install two softwares to run the pipeline. Docker is used to run any software in a containerized environment where you can work with any software witihout installation issue on any machine. Nextflow is used to run the quantms pipeline. It is a collection of bioinformatics pipelines including quantms which we used it to extract mass spectrometry data from mass spectrometer. By having these two softwares, you can run the mass spectrometry pipeline on any machine. Simple and easy, right? What we are doing here can shorted the steps in mass spectrometry data analysis from days or months to just an hour. You can also now analyse it with your own laptop. Remember to have enough space for data storage and memory for the pipeline to run.
+You only need to install two softwares to run the pipeline. Docker is used to run any software in a containerized environment where you can work with any software witihout installation issue on any machine. Nextflow is used to run the quantms pipeline. It is a collection of bioinformatics pipelines including quantms which we used it to extract mass spectrometry data from mass spectrometer. By having these two softwares, you can run the mass spectrometry pipeline on any machine. Simple and easy, right? You can also now analyse it with your own laptop. Remember to have enough space for data storage and memory for the pipeline to run.
 
 There may be some issues with the installation of Docker and Nextflow. Of course, different operating systems may have different steps to install the softwares. Please refer to the official documentation for more information.
 
@@ -65,6 +65,7 @@ All of the file above should be in the same directory.
 5. After the pipeline finishes, you can see some reports similar to the image below. The results are in the `results` folder. 
 
     ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/done.png?raw=true)
+6. Now, you have done your first mass spectrometry data analysis. Yay! what we are doing here can shorted the steps in mass spectrometry data analysis from days or months to just an hour.
 
 # Further readings 
 
@@ -75,4 +76,4 @@ All of the file above should be in the same directory.
 - Course: CB2110 Applied Proteomics, KTH 
 - Author: Thanadol Sutantiwanichkul (thanado@kth.se)
 - Latest update: 120824
-- Version: 0.1.0 
+- Version: 0.2.0 
