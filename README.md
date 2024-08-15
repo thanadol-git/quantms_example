@@ -1,10 +1,10 @@
 # 1. Set up 
 
-You only need to install two softwares to run the pipeline. Docker is used to run the pipeline in a containerized environment where you can work with any software witihout installation issue on any machine. Nextflow is used to run the quantms pipeline. It is a collection of bioinformatics pipelines including quantms which we used it to extract mass spectrometry data from mass spectrometer. By having these two softwares, you can run the pipeline without installing any other software. Simple and easy, Weehee. 
+You only need to install two softwares to run the pipeline. Docker is used to run any software in a containerized environment where you can work with any software witihout installation issue on any machine. Nextflow is used to run the quantms pipeline. It is a collection of bioinformatics pipelines including quantms which we used it to extract mass spectrometry data from mass spectrometer. By having these two softwares, you can run the mass spectrometry pipeline on any machine. Simple and easy, right? What we are doing here can shorted the steps in mass spectrometry data analysis from days or months to just an hour. You can also now analyse it with your own laptop. Remember to have enough space for data storage and memory for the pipeline to run.
 
-There may be some issues with the installation of Docker and Nextflow. Please refer to the official documentation for more information. Of course, different operating systems may have different ways to install the software. Please refer to the official documentation for more information.
+There may be some issues with the installation of Docker and Nextflow. Of course, different operating systems may have different steps to install the softwares. Please refer to the official documentation for more information.
 
-1. [Docker](https://www.docker.com/)
+1. [Docker](https://docs.docker.com/engine/install/)
 2. [Nextflow](https://www.nextflow.io/docs/latest/install.html) 
 
 # 2. Links 
@@ -15,7 +15,7 @@ For further information, please refer to the following links.
 - [PRIDE](https://www.ebi.ac.uk/pride/archive/) 
 
 # 3. Running 
-## Check you installation. 
+## Check you installations 
 0. Open your terminal.
 1. Docker: 
     ```
@@ -26,7 +26,7 @@ For further information, please refer to the following links.
     nextflow run hello
     ``` 
     Hint: You may need `sudo` to run the command.
-## Prepare your files.
+## Prepare your files
 1. Download the proteome from [Uniprot](https://www.uniprot.org/). You need to download the fasta file of the proteome in a canonical version without the isoforms.
 2. Download the raw data from [PRIDE](https://www.ebi.ac.uk/pride/archive/). For example, `PXD020109`. 
 3. Prepare the SDRF file. Follow the instruction on the course. 
