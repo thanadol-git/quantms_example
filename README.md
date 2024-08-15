@@ -34,18 +34,18 @@ For further information, please refer to the following links.
     nextflow run hello
     ``` 
 
-    If you see the message below, you have successfully installed Docker. 
+    If you see the message below, you have successfully installed Nextflow. 
     
-    ![alt text](images/nextflow.png? )
+    ![alt text](images/nextflow.png?)
 
-Hint: You may need `sudo` to run the command.
+Note: You may need `sudo` to run the command.
 
 
 ## Prepare your files
 1. Download the proteome from [Uniprot](https://www.uniprot.org/). You need to download the fasta file of the proteome in a canonical version without the isoforms.
 2. Download the raw data from [PRIDE](https://www.ebi.ac.uk/pride/archive/). For example, `PXD020109`. 
-3. Prepare the SDRF file. Follow the instruction on the course. 
-All of the file above should be in the same directory.
+3. Prepare the SDRF file. Follow the instruction in the course. 
+All of the files above should locate in the same directory.
 
 ## Run the pipeline 
 1. Change your directory to the directory that contains the files.
@@ -55,7 +55,7 @@ All of the file above should be in the same directory.
     ```
     
 2. Take a look at SDRF files and raw files. Are they correlated with file numbers abd file names?
-3. Run the pipeline. Adjust your file names and paths accordingly within `<>`. Note: the quotes are necessary.
+3. Run the pipeline. Adjust your file names and paths accordingly with `<>`. In other words, edit the content between `<>` and remove `<>`. Importantly, the quotes (`' or "`) are necessary.
     
     ```
     nextflow run bigbio/quantms -r dev --input '<sdrf>.tsv' --outdir 'results' --database '<Organism Proteome>.fasta' -profile docker --root_folder <root directory of your folder> --local_input_type raw --add_decoys true --max_memory 8GB
@@ -65,7 +65,7 @@ All of the file above should be in the same directory.
 5. After the pipeline finishes, you can see some reports similar to the image below. The results are in the `results` folder. 
 
     ![alt text](/images/done.png )
-6. Now, you have done your first mass spectrometry data analysis. Yay! what we are doing here can shorted the steps in mass spectrometry data analysis from days or months to just an hour.
+6. Now, you have done your first mass spectrometry data analysis, yay! what we are doing here can shorten the steps in mass spectrometry research from days or months to just an hour, wowww!
 
 # Further readings 
 
@@ -76,4 +76,4 @@ All of the file above should be in the same directory.
 - Course: CB2110 Applied Proteomics, KTH 
 - Author: Thanadol Sutantiwanichkul (thanado@kth.se)
 - Latest update: 120824
-- Version: 0.2.0 
+- Version: 0.2.1 
