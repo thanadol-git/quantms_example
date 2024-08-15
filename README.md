@@ -1,8 +1,12 @@
 # 1. Set up 
+
+You only need to install two softwares to run the pipeline. Docker is used to run the pipeline in a containerized environment. Nextflow is used to run the quantms pipeline. By having these two softwares, you can run the pipeline without installing any other software. Simple and easy. There may be some issues with the installation of Docker and Nextflow. Please refer to the official documentation for more information. Ofcouse, different operating systems may have different ways to install the software. Please refer to the official documentation for more information.
+
 1. [Docker](https://www.docker.com/)
 2. [Nextflow](https://www.nextflow.io/) 
 
 # 2. Links 
+For further information, please refer to the following links. 
 - [nextflow](https://www.nextflow.io/)
 - [quantms](https://nf-co.re/quantms/1.3.0/) 
 - [msstats](https://bioconductor.org/packages/release/bioc/html/MSstats.html) 
