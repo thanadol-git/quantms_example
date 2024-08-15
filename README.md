@@ -9,7 +9,7 @@ There may be some issues with the installation of Docker and Nextflow. Of course
 
 # 2. Links 
 For further information, please refer to the following links. 
-- [nextflow](https://www.nextflow.io/)
+- [Nextflow](https://www.nextflow.io/)
 - [quantms](https://docs.quantms.org/en/latest/) 
 - [msstats](https://bioconductor.org/packages/release/bioc/html/MSstats.html) 
 - [PRIDE](https://www.ebi.ac.uk/pride/archive/) 
