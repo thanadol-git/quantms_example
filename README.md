@@ -1,3 +1,4 @@
+![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/header.jpg?raw=true)
 # 1. Set up 
 
 You only need to install two softwares to run the pipeline. Docker is used to run any software in a containerized environment where you can work with any software witihout installation issue on any machine. Nextflow is used to run the quantms pipeline. It is a collection of bioinformatics pipelines including quantms which we used it to extract mass spectrometry data from mass spectrometer. By having these two softwares, you can run the mass spectrometry pipeline on any machine. Simple and easy, right? What we are doing here can shorted the steps in mass spectrometry data analysis from days or months to just an hour. You can also now analyse it with your own laptop. Remember to have enough space for data storage and memory for the pipeline to run.
