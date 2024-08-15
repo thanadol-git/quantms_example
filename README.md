@@ -62,6 +62,9 @@ All of the file above should be in the same directory.
     ```
     One can adjust the memory usage by changing the `--max_memory` parameter. It's recommended to use as much memory as possible but not all of it.
 4. The pipeline will run and generate the results in the `results` folder and the intermediate file in `work`. It will take a while to run around an hour. If it crashes, you can resume the pipeline by running the same command and add `-resume`.
+5. After the pipeline finishes, you can see some reports similar to the image below. The results are in the `results` folder. 
+
+    ![alt text](https://github.com/thanadol-git/quantms_example/blob/fix/images/done.png?raw=true)
 
 # Further readings 
 
