@@ -10,12 +10,12 @@ There may be some issues with the installation of Docker and Nextflow. Please re
 # 2. Links 
 For further information, please refer to the following links. 
 - [nextflow](https://www.nextflow.io/)
-- [quantms](https://nf-co.re/quantms/1.3.0/) 
+- [quantms](https://docs.quantms.org/en/latest/) 
 - [msstats](https://bioconductor.org/packages/release/bioc/html/MSstats.html) 
 - [PRIDE](https://www.ebi.ac.uk/pride/archive/) 
 
 # 3. Running 
-## Check you installation and prepare your Files. 
+## Check you installation. 
 0. Open your terminal.
 1. Docker: 
     ```
@@ -40,7 +40,7 @@ All of the file above should be in the same directory.
     ```
     
 2. Take a look at SDRF files and raw files. Are they correlated with file numbers abd file names?
-3. Run the pipeline. Adjust your file names and paths accordingly within <>. 
+3. Run the pipeline. Adjust your file names and paths accordingly within `<>`. Note: the quotes are necessary.
     
     ```
     nextflow run bigbio/quantms -r dev --input '<sdrf>.tsv' --outdir 'results' --database '<Organism Proteome>.fasta' -profile docker --root_folder <root directory of your folder> --local_input_type raw --add_decoys true --max_memory 8GB
