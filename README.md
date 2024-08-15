@@ -7,34 +7,42 @@
 
 ## 2. Links 
 - [nextflow](https://www.nextflow.io/)
-- [quantms](https://nf-co.re/quantms/1.2.0/) 
+- [quantms](https://nf-co.re/quantms/1.3.0/) 
 - [msstats](https://bioconductor.org/packages/release/bioc/html/MSstats.html) 
 - [PRIDE](https://www.ebi.ac.uk/pride/archive/) 
 
 ## 3. Running 
-0. A. Check you installation. 
+1. Check you installation and prepare your Files. 
     - Docker: 
-    ```docker run hello-world```
-    - Nexxtflow 
-    ```nextflow run hello```
-    # Hint: You may need `sudo` to run the command.
-    B. Download the proteome from [Uniprot](https://www.uniprot.org/). You need to download the fasta file of the proteome in a canonical version without the isoforms.
-    C. Download the raw data from [PRIDE](https://www.ebi.ac.uk/pride/archive/)
-        In this exercise we will use the raw files from the PRIDE project PXD020109. 
-    D. Prepare the SDRF file.
-    E. All of the file above should be in the same directory.
+    ```
+    docker run hello-world
+    ```
+    - Nextflow: 
+    ```
+    nextflow run hello
+    ``` 
+    Hint: You may need `sudo` to run the command.
+2. Prepare your files.
+    - Download the proteome from [Uniprot](https://www.uniprot.org/). You need to download the fasta file of the proteome in a canonical version without the isoforms.
+    - Download the raw data from [PRIDE](https://www.ebi.ac.uk/pride/archive/). In this exercise we will use the raw files from the PRIDE project PXD020109. 
+    - Prepare the SDRF file.
+    - All of the file above should be in the same directory.
 
-1. Run the pipeline 
+3. Run the pipeline 
     - Change your directory to the directory that contains the files.
-    ```cd /path/to/your/directory```
+
+    ```
+    cd </path/to/your/directory>
+    ```
+    
     - Take a look at SDRF files and raw files. Are they correlated with file numbers abd file names?
     - Run the pipeline. Adjust your file names and paths accordingly within <>. 
-    ```nextflow run bigbio/quantms -r dev --input '<sdrf>.tsv' --outdir 'results' --database '<Organusm Proteome>.fasta' -profile docker --root_folder <root directory of your folder> --local_input_type raw  --add_decoys --max_memory 8GB```
-    - The pipeline will run and generate the results in the `results` folder. It will take a while to run. If it crashes, you can resume the pipeline by running the same command and add `-resume`.
-
-
-
-1. 
+    
+    ```
+    nextflow run bigbio/quantms -r dev --input '<sdrf>.tsv' --outdir 'results' --database '<Organusm Proteome>.fasta' -profile docker --root_folder <root directory of your folder> --local_input_type raw  --add_decoys --max_memory 8GB
+    ```
+    One can adjust the memory usage by changing the `--max_memory` parameter. It's recommended to use as much memory as possible but not all of it.
+    - The pipeline will run and generate the results in the `results` folder and the intermediate file in `work`. It will take a while to run around an hour. If it crashes, you can resume the pipeline by running the same command and add `-resume`.
 
 ## 4. Publications 
 
