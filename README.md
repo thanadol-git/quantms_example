@@ -1,7 +1,7 @@
 ![alt text](/images/header.png)
 # 1. Set-up 
 
-You only need to install two softwares to run the pipeline. Docker is used to run any software in a containerized environment where you can work with any software witihout installation issue on any machine. Nextflow is used to run the quantms pipeline. It is a collection of bioinformatics pipelines including quantms which we used it to extract mass spectrometry data from mass spectrometer. By having these two softwares, you can run the mass spectrometry pipeline on any machine. Simple and easy, right? You can also now analyse it with your own laptop. Remember to have enough space for data storage and memory for the pipeline to run.
+You only need to install two softwares to run the pipeline. Docker is used to run any software in a containerized environment where you can work with any software witihout installation issue on any machine. Nextflow is used to run the quantms pipeline. It is a collection of bioinformatics pipelines including quantms which we used it to extract mass spectrometry data from mass spectrometer. By having these two softwares, you can run the mass spectrometry pipeline on any machine. Simple and easy, right? You can also now analyse it with your own laptop. Remember to have enough space for data storage and memory for the pipeline to run. This exercise requires at least 50 GB of free space and 8 GB of memory.
 
 There may be some issues with the installation of Docker and Nextflow. Of course, different operating systems may have different steps to install the softwares. Please refer to the official documentation for more information.
 
