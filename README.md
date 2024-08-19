@@ -15,7 +15,7 @@ For further information, please refer to the following links.
 - [Nextflow](https://www.nextflow.io/)
 - [quantms](https://docs.quantms.org/en/latest/) 
 - [msstats](https://bioconductor.org/packages/release/bioc/html/MSstats.html) 
-- [PRIDE](https://www.ebi.ac.uk/pride/archive/) 
+- [PRIDE](https://www.ebi.ac.uk/pride/) 
 
 # 3. Running 
 ## Check you installations 
