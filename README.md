@@ -42,9 +42,11 @@ Note: You may need `sudo` to run the command.
 
 
 ## Prepare your files
-1. Download the proteome from [Uniprot](https://www.uniprot.org/). You need to download the fasta file of the proteome in a canonical version without the isoforms.
+
+1. Prepare the SDRF file. It is located in this repo.
 2. Download the raw data from [PRIDE](https://www.ebi.ac.uk/pride/archive/). For example, `PXD020109`. 
-3. Prepare the SDRF file. Follow the instruction in the course. 
+3. Download the proteome from [Uniprot](https://www.uniprot.org/). You need to download the fasta file of the proteome in a canonical version without the isoforms.
+
 All of the files above should locate in the same directory.
 
 ## Run the pipeline 
