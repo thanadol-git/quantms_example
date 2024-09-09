@@ -17,6 +17,11 @@ For further information, please refer to the following links.
 - [msstats](https://bioconductor.org/packages/release/bioc/html/MSstats.html) 
 - [PRIDE](https://www.ebi.ac.uk/pride/) 
 
+
+https://github.com/user-attachments/assets/a7a27d41-dd11-44d2-a84c-d15290e1a13e
+
+
+
 # 3. Running 
 ## Check you installations 
 0. Open your terminal.
